@@ -17,7 +17,7 @@ public class Ejercicio5 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         while (n <= 0) {
-            System.out.println("El número debe ser menor que 0. Introduce un nuevo número:");
+            System.out.println("El número debe ser mayor que 0. Introduce un nuevo número:");
             n = sc.nextInt();
         }
 
