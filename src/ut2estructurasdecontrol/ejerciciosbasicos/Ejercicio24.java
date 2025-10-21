@@ -11,6 +11,9 @@ public class Ejercicio24 {
         System.out.println("Introduce un número entre el 0 y el 9.999");
         int input = sc.nextInt();
         sc.close();
+
+        //Averiguamos cuántas cifras tiene nuestro número y definimos el número de opciones.
+
         int cifras = 0;
         if (input < 10) {
             cifras = 1;
@@ -21,6 +24,11 @@ public class Ejercicio24 {
         } else if (input < 9999) {
             cifras = 4;
         }
+
+        /*Mediante un switch definimos las posibles soluciones comparando millares, centenas, decenas y unidades
+        según corresponda.
+         */
+
         switch (cifras) {
             case 1:
                 System.out.println("El número es capicua");

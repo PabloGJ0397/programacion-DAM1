@@ -16,7 +16,7 @@ public class Ejercicio8 {
                     count++;
                 }
             }
-            //si el contador solo ha contado 2 debe ser primo.
+            //si el contador solo ha contado 2 (veces que al dividir el resto es 0) debe ser primo.
             if (count == 2) {
                 System.out.println(i);
             }
