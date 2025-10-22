@@ -1,4 +1,4 @@
-package ut2estructurasdecontrol.ejerciciosfunciones;
+package ut2estructurasdecontrol.ejerciciosfunciones.ejerciciosprincipiantes;
 /* Metodo sumar que reciba dos enteros y retorne su suma*/
 public class EjerciciosPrincipiantes2 {
     public static void main() {

@@ -1,4 +1,4 @@
-package ut2estructurasdecontrol.ejerciciosfunciones;
+package ut2estructurasdecontrol.ejerciciosfunciones.ejerciciosprincipiantes;
 /*
 Crea un método llamado saludar que imprima un saludo en pantalla. Llama a ese método desde main.
 

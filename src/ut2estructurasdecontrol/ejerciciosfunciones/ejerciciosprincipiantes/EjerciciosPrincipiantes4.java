@@ -1,4 +1,4 @@
-package ut2estructurasdecontrol.ejerciciosfunciones;
+package ut2estructurasdecontrol.ejerciciosfunciones.ejerciciosprincipiantes;
 // Escribe un método para calcular el área de un rectángulo usando base y altura.
 
 import java.util.Scanner;

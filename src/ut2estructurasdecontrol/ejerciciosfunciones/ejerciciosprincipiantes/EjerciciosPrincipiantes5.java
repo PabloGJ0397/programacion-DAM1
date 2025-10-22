@@ -1,4 +1,4 @@
-package ut2estructurasdecontrol.ejerciciosfunciones;
+package ut2estructurasdecontrol.ejerciciosfunciones.ejerciciosprincipiantes;
 // Implementa un método que calcule el máximo de 3 números.
 public class EjerciciosPrincipiantes5 {
     public static void main() {
