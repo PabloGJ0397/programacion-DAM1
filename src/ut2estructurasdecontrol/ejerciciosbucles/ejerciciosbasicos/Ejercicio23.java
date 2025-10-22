@@ -1,4 +1,4 @@
-package ut2estructurasdecontrol.ejerciciosbasicos;
+package ut2estructurasdecontrol.ejerciciosbucles.ejerciciosbasicos;
 
 import java.util.Scanner;
 

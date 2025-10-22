@@ -1,4 +1,4 @@
-package ut2estructurasdecontrol.ejerciciosavanzados;
+package ut2estructurasdecontrol.ejerciciosbucles.ejerciciosavanzados;
 
 /*
 Muestra los números primos entre 1 y 100.

@@ -1,4 +1,4 @@
-package ut2estructurasdecontrol.ejerciciosbasicos;
+package ut2estructurasdecontrol.ejerciciosbucles.ejerciciosbasicos;
 
 /*
 Escribir un programa en Java que multiplique los 20 primeros números naturales (12345…). --> FACTORIAL 20!
