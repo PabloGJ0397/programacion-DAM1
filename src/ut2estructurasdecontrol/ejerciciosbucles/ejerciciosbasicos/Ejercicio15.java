@@ -12,7 +12,7 @@ public class Ejercicio15 {
 
         for (int i = 1; i <= 10; i++) {
             if (i < 10) {
-                System.out.println(i + "  \tx     \t" + n + " = \t" + (n * i));
+                System.out.println(i + "   \tx     \t" + n + " = \t" + (n * i));
             } else {
                 System.out.println(i + "  \tx     \t" + n + " = \t" + (n * i));
             }
