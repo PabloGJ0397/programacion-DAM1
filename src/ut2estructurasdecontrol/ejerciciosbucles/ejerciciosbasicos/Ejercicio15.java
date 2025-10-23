@@ -11,7 +11,11 @@ public class Ejercicio15 {
         System.out.println("Tabla de multiplicar del " + n);
 
         for (int i = 1; i <= 10; i++) {
-            System.out.println(i + "  \tx     \t" + n + " = \t" + (n * i));
+            if (i < 10) {
+                System.out.println(i + "  \tx     \t" + n + " = \t" + (n * i));
+            } else {
+                System.out.println(i + "  \tx     \t" + n + " = \t" + (n * i));
+            }
         }
 
         sc.close();
