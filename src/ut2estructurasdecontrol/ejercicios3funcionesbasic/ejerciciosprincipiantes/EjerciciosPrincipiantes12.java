@@ -1,4 +1,4 @@
-package ut2estructurasdecontrol.ejerciciosfunciones.ejerciciosprincipiantes;
+package ut2estructurasdecontrol.ejercicios3funcionesbasic.ejerciciosprincipiantes;
 
 //Crea un método mostrar para imprimir: un String, un int, un double.
 

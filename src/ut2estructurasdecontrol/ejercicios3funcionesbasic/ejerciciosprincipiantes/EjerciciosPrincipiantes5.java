@@ -1,4 +1,4 @@
-package ut2estructurasdecontrol.ejerciciosfunciones.ejerciciosprincipiantes;
+package ut2estructurasdecontrol.ejercicios3funcionesbasic.ejerciciosprincipiantes;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ut2estructurasdecontrol.ejerciciosfunciones.ejerciciosprincipiantes;
+package ut2estructurasdecontrol.ejercicios3funcionesbasic.ejerciciosprincipiantes;
 // Implementa un método que reciba un nombre y edad y muestre un mensaje personalizado.
 
 import java.util.Scanner;

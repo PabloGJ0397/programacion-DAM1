@@ -1,4 +1,4 @@
-package ut2estructurasdecontrol.ejerciciosfunciones.ejerciciosprincipiantes;
+package ut2estructurasdecontrol.ejercicios3funcionesbasic.ejerciciosprincipiantes;
 
 //Sobrecarga un método saludar que pueda recibir: sin parámetros, un nombre, un nombre y unos apellidos.
 public class EjerciciosPrincipiantes13 {

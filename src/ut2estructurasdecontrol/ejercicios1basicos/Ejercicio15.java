@@ -1,8 +1,9 @@
-package ut2estructurasdecontrol.ejerciciosbucles.ejerciciosbasicos;
+package ut2estructurasdecontrol.ejercicios1basicos;
 
 //Mostrar la tabla de multiplicar de un número.
 
 import java.util.Scanner;
+
 public class Ejercicio15 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

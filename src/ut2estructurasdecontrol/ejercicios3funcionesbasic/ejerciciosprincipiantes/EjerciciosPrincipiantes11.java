@@ -1,4 +1,4 @@
-package ut2estructurasdecontrol.ejerciciosfunciones.ejerciciosprincipiantes;
+package ut2estructurasdecontrol.ejercicios3funcionesbasic.ejerciciosprincipiantes;
 
 //Implementa dos métodos llamados multiplicar:
 //    •Uno que reciba dos enteros y devuelva la multiplicación.

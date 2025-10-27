@@ -1,4 +1,4 @@
-package ut2estructurasdecontrol.ejerciciosbucles.ejerciciosavanzados;
+package ut2estructurasdecontrol.ejercicios2avanzados;
 
 import java.util.Scanner;
 
@@ -18,7 +18,7 @@ public class Ejercicio1bis {
             }
             System.out.println();
         }
-        for (int i = n - 1; i >= 1; i--){
+        for (int i = n - 1; i >= 1; i--) {
             for (int j = 1; j >= i; j--) {
                 System.out.println("*" + "  ");
             }

@@ -1,4 +1,4 @@
-package ut2estructurasdecontrol.ejerciciosfunciones.ejerciciosprincipiantes;
+package ut2estructurasdecontrol.ejercicios3funcionesbasic.ejerciciosprincipiantes;
 
 //Sobrecarga sumar: crea versiones que sumen dos, tres y cuatro enteros.
 public class EjerciciosPrincipiantes10 {

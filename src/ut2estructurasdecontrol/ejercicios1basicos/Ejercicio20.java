@@ -6,7 +6,7 @@ siguientes, mostrando el resultado en pantalla.
 
 import java.util.Scanner;
 
-public class Ejercicio_20 {
+public class Ejercicio20 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce un número entero");
