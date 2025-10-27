@@ -2,7 +2,7 @@ package ut2estructurasdecontrol.ejerciciosfunciones.ejerciciosprincipiantes;
 
 // Implementa un método que calcule el máximo de 3 números.
 public class EjerciciosPrincipiantes6 {
-    public static void main() {
+    static void main() {
         int num1 = 4;
         int num2 = 12;
         int num3 = 322;

@@ -6,7 +6,7 @@ import java.util.Scanner;
    multiplicación, 4 para división). Según el código, el método debe realizar la operación indicada y mostrar el
    resultado */
 public class EjerciciosPrincipiantes9 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce los dos operandos:");
         int operando1 = sc.nextInt();

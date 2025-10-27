@@ -12,19 +12,20 @@ public class EjerciciosPrincipiantes5 {
         int numero = sc.nextInt();
         String respuesta = paroimpar(numero);
         System.out.println(respuesta);
+        sc.close();
     }
 
     static String paroimpar(int n) {
         return (n % 2 == 0) ? "el número es par" : "el número es impar";
     }
     */
-    public static void main() {
+    //opción 2
+    static void main() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce un número entero:");
         int input = sc.nextInt();
         if (imparopar(input)) {
             System.out.println("el número " +
-                    "" +
                     input +
                     " es par");
         } else {

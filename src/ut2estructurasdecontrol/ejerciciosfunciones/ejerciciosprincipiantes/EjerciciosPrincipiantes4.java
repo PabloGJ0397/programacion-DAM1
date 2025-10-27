@@ -4,7 +4,7 @@ package ut2estructurasdecontrol.ejerciciosfunciones.ejerciciosprincipiantes;
 import java.util.Scanner;
 
 public class EjerciciosPrincipiantes4 {
-    public static void main() {
+    static void main() {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce la base del rectángulo:");
         int base = sc.nextInt();
@@ -16,7 +16,8 @@ public class EjerciciosPrincipiantes4 {
 
 
     }
-    public static int calculoArea(int base, int altura){
+
+    public static int calculoArea(int base, int altura) {
         return base * altura;
     }
 }

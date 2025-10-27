@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 //Escribe un método que convierta grados Celsius a Fahrenheit.
 public class EjerciciosPrincipiantes7 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce los grados celsius:");
         double imputC = sc.nextDouble();
@@ -16,10 +16,10 @@ public class EjerciciosPrincipiantes7 {
     }
 
     public static double celsiusToFahrenheit(double celsius) {
-        return ((double) (celsius * 9) / 5) + 32;
+        return ((celsius * 9) / 5) + 32;
     }
 
     public static double fahrenheitToCesius(double fahrenheit) {
-        return ((double) (fahrenheit - 32) * 5 / 9);
+        return ((fahrenheit - 32) * 5 / 9);
     }
 }
