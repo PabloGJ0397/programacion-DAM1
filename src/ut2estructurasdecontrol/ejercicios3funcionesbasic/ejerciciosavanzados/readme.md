@@ -40,3 +40,14 @@
     obtenerLetraMenor() al que se le pasa la frase y nos da la letra mas pequeña.
     Asimismo el trabajo de eliminar la letra de la frase original lo realizará otro
     método llamado eliminarLetra() al que se le pasa la frase y la letra a eliminar y nos da como resultado la frase modificada.
+
+Métodos comunes para String "hola"
+H O L A
+0 1 2 3
+.length() = 4
+.charAt(1) = o
+substring(1) = la
+substring (0,2) = ho
+
+
+EJEMPLO DE EJERCICIO RECURSIVO.
