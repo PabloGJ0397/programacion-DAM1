@@ -8,7 +8,7 @@ y un -2 en caso de que el parámetro pasado sea cero.
 import java.util.Scanner;
 
 public class EjerciciosAvanzados5 {
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduzca el número del que desea conocer el factorial");
         int input = sc.nextInt();
