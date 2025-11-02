@@ -1,5 +1,7 @@
 package ut2estructurasdecontrol.ejercicios3funcionesbasic.ejerciciosavanzados;
 
+import java.util.Scanner;
+
 /*
 Haz programa que ordene alfabéticamente las letras de una frase. El programa debe pedir por teclado una frase y escribirla con las letras ordenadas.
     Ejemplo: Tecleando la palabra “hola”
@@ -19,4 +21,48 @@ Haz programa que ordene alfabéticamente las letras de una frase. El programa de
     método llamado eliminarLetra() al que se le pasa la frase y la letra a eliminar y nos da como resultado la frase modificada
  */
 public class EjerciciosAvanzados10 {
+    static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Introduce una frase para ordenarla alfabéticamente:");
+        String fraseOriginal = sc.nextLine();
+        System.out.println(ordenar(fraseOriginal));
+        sc.close();
+    }
+
+    public static String ordenar(String frase) {
+        if (frase.length() == 0) {
+            return "";
+        }
+        char letraMenor = obtenerLetraMenor(frase);
+        String fraseSinLetra = eliminarLetra(frase, letraMenor);
+        return letraMenor + ordenar(fraseSinLetra);
+    }
+
+    public static char obtenerLetraMenor(String frase) {
+        if (frase.length() == 1) {
+            return frase.charAt(0);
+        }
+        char primeraLetra = frase.charAt(0);
+        String restoFrase = frase.substring(1);
+        char menorResto = obtenerLetraMenor(restoFrase);
+        if (primeraLetra < menorResto) {
+            return primeraLetra;
+        } else {
+            return menorResto;
+        }
+    }
+
+    public static String eliminarLetra(String frase, char letraAEliminar) {
+        if (frase.isEmpty()) {
+            return "";
+        }
+        char primeraLetra = frase.charAt(0);
+        String restoFrase = frase.substring(1);
+
+        if (primeraLetra == letraAEliminar) {
+            return eliminarLetra(restoFrase, letraAEliminar);
+        } else {
+            return primeraLetra + eliminarLetra(restoFrase, letraAEliminar);
+        }
+    }
 }
