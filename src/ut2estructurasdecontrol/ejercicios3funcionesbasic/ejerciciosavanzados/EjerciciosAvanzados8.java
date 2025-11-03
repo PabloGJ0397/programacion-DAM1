@@ -19,7 +19,7 @@ public class EjerciciosAvanzados8 {
     }
 
     public static String cifrar(String cadena) {
-        for (int i = 0, i <cadena.length(), i++){
+        for (int i = 0; i < cadena.length(); i++) {
             char letra = cadena.charAt(i);
             letra = (char) (letra + 2);
 
