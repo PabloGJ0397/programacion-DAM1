@@ -13,22 +13,40 @@ public class EjerciciosAvanzados8 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Introduce la frase que deseas cifrar");
         String input = sc.nextLine();
-        System.out.println(cifrar(input));
-
+        String cadenaCifrada = cifrar(input);
+        System.out.println(cadenaCifrada);
+        String cadenaDescifrada = descifrar(cadenaCifrada);
+        System.out.println(cadenaDescifrada);
 
     }
 
     public static String cifrar(String cadena) {
+        String cadenaCifrada = "";
         for (int i = 0; i < cadena.length(); i++) {
             char letra = cadena.charAt(i);
-            letra = (char) (letra + 2);
-
-
+            if (letra >= 'A' && letra <= 'Z'){
+                letra = (char) ('A' + (letra - 'A' + 2) % 26);
+            } else if (letra >= 'a' && letra <= 'z') {
+                letra = (char) ('a' + (letra - 'a' + 2) % 26);
+            }
+            cadenaCifrada += letra;
         }
+        return cadenaCifrada;
+    }
+    public static String descifrar (String cadenaCifrada){
+        String cadenaDescifrada = "";
+        for ( int i = 0; i < cadenaCifrada.length(); i++){
+            char letraCifrada = cadenaCifrada.charAt(i);
+            if (letraCifrada >= 'A' && letraCifrada <= 'Z'){
+                letraCifrada = (char) ('A' + (letraCifrada - 'A' - 2 + 26) % 26);
+            } else if (letraCifrada >= 'a' && letraCifrada <= 'z') {
+                letraCifrada = (char) ('a' + (letraCifrada - 'a' - 2 + 26) % 26);
+            }
+            cadenaDescifrada += letraCifrada;
+        }
+        return cadenaDescifrada;
     }
 
-    public static String descifrar(String) {
 
-    }
 
 }
