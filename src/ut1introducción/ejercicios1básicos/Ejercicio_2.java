@@ -7,6 +7,6 @@ A continuación, muestra un mensaje indicando si A es par o impar. Utiliza el op
 public class Ejercicio_2 {
     public static void main(String[] args) {
         int numeroEntero = 7;
-        System.out.println(numeroEntero + " es un número entero.");
+        System.out.println((numeroEntero % 2 == 0)? "Es un número par": "Es un número impar");
     }
 }

@@ -16,6 +16,9 @@ public class EjerciciosAvanzados1 {
     }
 
     public static boolean esPrimoDesde(int num, int divisor) {
+        if ( num <= 1){
+            return false;
+        }
         if (divisor == num) {
             return true;
         }
